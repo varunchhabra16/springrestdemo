@@ -16,7 +16,7 @@ public class UserController {
 
     HashMap<Long,User> userData = UserData.lMap;
 
-    @GetMapping("/users")
+    @GetMapping("/allusers")
     public List<User> getAllUsers(){
 
 
